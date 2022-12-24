@@ -1,0 +1,8 @@
+#textfield {
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+}
