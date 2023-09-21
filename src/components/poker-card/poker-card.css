@@ -1,0 +1,30 @@
+.poker-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.poker-card-turned {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 70px;
+    border-radius: 10%;
+    background-color: #299299;
+}
+
+.poker-card-turned h1{
+    display: none;
+}
+
+.poker-card h1 {
+    font-size: 20px;
+    color: black;
+}

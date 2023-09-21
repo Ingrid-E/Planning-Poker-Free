@@ -7,11 +7,11 @@ function Home() {
   const nav = useNavigate();
   return (
     <div className="home">
-      <h1>Room Name/Code</h1>
-      <Textfield placeholder="Name/Code"/>
+      <h1 className='title'>Poker Planning</h1>
+      <Textfield placeholder="Player name"/>
       <div id="home_buttons">
-        <Button text="CREATE" gradient={{dark: "#213B96", light: "#001B7B"}}></Button>
-        <Button text="JOIN" gradient={{dark: "#219653", light: "#007B35"}} action={()=>{nav('/home-name')}}></Button>
+        <Button text="CREATE" color='blue'></Button>
+        <Button text="JOIN" color='green' action={()=>{nav('/home-name')}}></Button>
       </div>
     </div>
   );

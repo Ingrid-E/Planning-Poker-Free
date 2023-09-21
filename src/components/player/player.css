@@ -1,0 +1,19 @@
+.poker-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.poker-player .player{
+    width: 90px;
+    height: 90px;
+    background-color: aquamarine;
+    border-radius: 100%;
+}
+
+.poker-player h1{
+    font-size: 23px;
+    letter-spacing: 1.25px;
+}
